@@ -1,1 +1,1 @@
-## Experiment name
+## Demonstration of Exoelectrogenesis using Caulobacter Crescentus
