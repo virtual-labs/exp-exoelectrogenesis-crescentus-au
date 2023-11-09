@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. Which of the following could be a strong exoelectrogenic organism ?",
+      "question": "1. Caulobacter crescentus is ?",
       "answers": {
-        "a": "Algae",
-        "b": "Fungi",
-        "c": "Bacteria",
-        "d": "Virus"
+        "a": "gram-positive, oligotrophic microorganism",
+        "b": "gram-positive, heterotrophic microorganism",
+        "c": "gram-negative, oligotrophic microorganism",
+        "d": "gram-negative, heterotrophic microorganism"
       },
       
       "correctAnswer": "c",
@@ -15,12 +15,12 @@
     },
 
     {
-      "question": "2. Generation of electricity by microorganisms was achieved by ",
+      "question": "2. In simulator, the transfer of electrons in MFC is denoted by ",
       "answers": {
-        "a": "Intracellular electron transfer",
-        "b": "Extracellular electron transfer",
-        "c": "Proton motive force",
-        "d": "Extracellular proton transfer"
+        "a": "Colour change in anode",
+        "b": "Glowing of the electric bulb in the MFC",
+        "c": "Colour change in cathode",
+        "d": "Colour change in PEM"
       },
       
       "correctAnswer": "b",
@@ -29,12 +29,12 @@
 
 
     {
-      "question": "3. EET refers to:",
+      "question": "3. When Caulobacter crescentus, is used as electrogen in MFC simulator, which of the following combination of electrodes produced maximum output",
       "answers": {
-        "a": "the exchange of intracellular electrons with an extracellular electron donor/acceptor by microorganism",
-        "b": "the transfer of intracellular protons with an extracellular electron donor/acceptor by microorganism",
-        "c": "the exchange of intracellular protons with an extracellular proton donor by microorganism",
-        "d": "the exchange of energy by microorganisms."
+        "a": "Aluminum as anode and copper as cathode",
+        "b": "Carbon cloth at both electrodes",
+        "c": "graphite sheet at both electrodes",
+        "d": "All produced equal output"
       },
       
       "correctAnswer": "a",
@@ -44,30 +44,28 @@
 
 
     {
-      "question": "4. Characteristics of Caulobacter crescentus",
+      "question": "4. In the simulator, do you observe variance in the voltage at which maximum current can be obtained with respect to different electrode combinations.",
       "answers": {
-        "a": "Stalked-cell",
-        "b": "Swarmer cells",
-        "c": "Electrogens",
-        "d": "All the above"
+        "a": "Yes",
+        "b": "No"
       },
       
-      "correctAnswer": "d",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
 
 
 
     {
-      "question": "5. Example of an electrogen",
+      "question": "5. After working the simulator, which PEM can be a best for Caulobacter crescentus to perform exoelectrogenesis?",
       "answers": {
-        "a": "Geobacter sulfurreducens",
-        "b": "Shewanella putrefaciens",
-        "c": "Desulfuromonas acetoxidans",
-        "d": "All are electrogenic in nature."
+        "a": "Nutrient agar",
+        "b": "Nafion",
+        "c": "Both nutrient agar and nafion",
+        "d": "No PEM needed for Caulobacter crescentus."
       },
       
-      "correctAnswer": "d",
+      "correctAnswer": "b",
       "difficulty": "beginner"
       }
   ]
