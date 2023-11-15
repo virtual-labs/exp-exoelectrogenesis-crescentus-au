@@ -9,7 +9,7 @@
 
 <body>
     <div class='at-container'>
-        <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\logo.png" width="15%" height="4%" style="margin-left:1%; padding-top: 2%">
+        <img src=".images\logo.png" width="15%" height="4%" style="margin-left:1%; padding-top: 2%">
 
         <div id='header'>Demonstration of exoelectrogenesis using <i>Caulobacter crescentus</i></div>
     </div>
@@ -54,7 +54,7 @@
 
 
     <div class="image-container">
-        <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\chamber.png" alt="micro fuel cell"
+        <img src=".images\chamber.png" alt="micro fuel cell"
             class="centered">
         <div class="color-overlay">
             <p class="overlay-text1">Waste Water</p>
@@ -70,65 +70,65 @@
         <div class="color-overlay2"></div>
 
         <div class="commonAnode-container">
-            <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\aluminium.png" alt="Aluminium"
+            <img src=".images\aluminium.png" alt="Aluminium"
                 id="aluminium-image">
 
-            <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\stainlesssteel.png" alt="Stainless Steel"
+            <img src=".images\stainlesssteel.png" alt="Stainless Steel"
                 id="stainless-steel-image">
-            <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\manganese.png" alt="Manganese"
+            <img src=".images\manganese.png" alt="Manganese"
                 id="manganese-image">
-            <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\graphite.png" alt="Graphite"
+            <img src=".images\graphite.png" alt="Graphite"
                 id="graphite-image">
         </div>
 
 
         <div class="commonCathode-container">
-            <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\copper.png" alt="Copper Image"
+            <img src=".images\copper.png" alt="Copper Image"
                 id="copper-image">
             <!-- <div class="image-nameCathode">Cu</div> -->
-            <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\graphite.png" alt="Graphite"
+            <img src=".images\graphite.png" alt="Graphite"
                 id="cathodegraphite-image">
             <!-- <div class="image-nameCathode">C</div> -->
         </div>
         <div class="stand_image">
-            <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\STAND_updated.png" alt="Stand Image"
+            <img src=".images\STAND_updated.png" alt="Stand Image"
                 id="stand-image">
 
         </div>
         <div class="wire_image">
-            <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\background_converted.png" alt="left wireimage"
+            <img src=".images\background_converted.png" alt="left wireimage"
                 id="wire-image">
 
         </div>
         <div class="wirepiece_image">
-            <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\background_wire_piece.png"
+            <img src=".images\background_wire_piece.png"
                 id="wirepiece-image">
 
         </div>
         <div class="wire2_image">
-            <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\red_wire.png" alt="redright wireimage"
+            <img src=".images\red_wire.png" alt="redright wireimage"
                 id="wire2-image">
 
         </div>
         <div class="wirepieceright_image">
-            <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\right_wire.png" id="wirepieceright-image">
+            <img src=".images\right_wire.png" id="wirepieceright-image">
 
         </div>
-        <img src="C:\Users\amrita\Downloads\bacteria.png"
+        <img src=".images\bacteria.png"
             style="width:4%;height:12%;margin-left:35%;margin-top: -7%;opacity: 0.9; z-index:2;position: absolute;">
         <div class="arrow">
             <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\arrow.png" alt="Arrow Image">
         </div>
 
         <div class="bacteriaGif">
-            <img src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\bacteriaGif.gif">
+            <img src=".images\bacteriaGif.gif">
         </div>
     </div>
 
     <div class="bulb_image" id="bulb">
-        <img id="bulbOff-image" src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\BULB1.png">
+        <img id="bulbOff-image" src=".images\BULB1.png">
 
-        <img id="bulbOn-image" style="display:none;" src="C:\Users\Asha vijayan\OneDrive - Amrita university\vlab\MFC\Figures\BULB2.png">
+        <img id="bulbOn-image" style="display:none;" src=".images\BULB2.png">
     </div>
 
 
@@ -242,13 +242,13 @@
             }
             if (selectedCathode !== 'Select Electrode' && selectedAnode !== 'Select Electrode') {
 
-                document.getElementById("bulb").innerHTML = "<img id=\"bulbOff-image\" style=\"display:none;\" src=\"C:\\Users\\Asha vijayan\\OneDrive - Amrita university\\vlab\\MFC\\Figures\\BULB1.png\"><img id=\"bulbOn-image\"  src=\"C:\\Users\\Asha vijayan\\OneDrive - Amrita university\\vlab\\MFC\\Figures\\BULB2.png\">"
+                document.getElementById("bulb").innerHTML = "<img id=\"bulbOff-image\" style=\"display:none;\" src=\".images\\BULB1.png\"><img id=\"bulbOn-image\"  src=\".images\\BULB2.png\">"
                 electronDiv.style.display = 'block';
                 protonDiv.style.display = 'block';
                 electrontopDiv.style.display = 'block';
                 electrondownDiv.style.display = 'block';
             } else {
-                document.getElementById("bulb").innerHTML = "<img id=\"bulbOff-image\"\" src=\"C:\\Users\\Asha vijayan\\OneDrive - Amrita university\\vlab\\MFC\\Figures\\BULB1.png\"><img id=\"bulbOn-image\" style=\"display:none;src=\"C:\\Users\\Asha vijayan\\OneDrive - Amrita university\\vlab\\MFC\\Figures\\BULB2.png\">"
+                document.getElementById("bulb").innerHTML = "<img id=\"bulbOff-image\"\" src=\".images\\BULB1.png\"><img id=\"bulbOn-image\" style=\"display:none;src=\".images\\BULB2.png\">"
                 electronDiv.style.display = 'none';
                 protonDiv.style.display = 'none';
                 electrontopDiv.style.display = 'none';
@@ -300,13 +300,13 @@
             }
             if (selectedCathode !== 'Select Electrode' && selectedAnode !== 'Select Electrode') {
 
-                document.getElementById("bulb").innerHTML = "<img id=\"bulbOff-image\" style=\"display:none;\" src=\"C:\\Users\\Asha vijayan\\OneDrive - Amrita university\\vlab\\MFC\\Figures\\BULB1.png\"><img id=\"bulbOn-image\"  src=\"C:\\Users\\Asha vijayan\\OneDrive - Amrita university\\vlab\\MFC\\Figures\\BULB2.png\">"
+                document.getElementById("bulb").innerHTML = "<img id=\"bulbOff-image\" style=\"display:none;\" src=\".images\\BULB1.png\"><img id=\"bulbOn-image\"  src=\".images\\BULB2.png\">"
                 electronDiv.style.display = 'block';
                 protonDiv.style.display = 'block';
                 electrontopDiv.style.display = 'block';
                 electrondownDiv.style.display = 'block';
             } else {
-                document.getElementById("bulb").innerHTML = "<img id=\"bulbOff-image\"\" src=\"C:\\Users\\Asha vijayan\\OneDrive - Amrita university\\vlab\\MFC\\Figures\\BULB1.png\"><img id=\"bulbOn-image\" style=\"display:none;src=\"C:\\Users\\Asha vijayan\\OneDrive - Amrita university\\vlab\\MFC\\Figures\\BULB2.png\">"
+                document.getElementById("bulb").innerHTML = "<img id=\"bulbOff-image\"\" src=\".images\\BULB1.png\"><img id=\"bulbOn-image\" style=\"display:none;src=\".images\\BULB2.png\">"
                 electronDiv.style.display = 'none';
                 protonDiv.style.display = 'none';
                 electrontopDiv.style.display = 'none';
