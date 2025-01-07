@@ -5,4 +5,3 @@
 •	To learn the characteristics of Caulobacter crescentus and its exoelectrogenic properties through extracellular electron transfer.
 
 •	To measure and analyze electrical current produced by the bacterium.
-
